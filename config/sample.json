@@ -1,0 +1,11 @@
+{
+  "mongoURI": "mongodb+srv://authman:authman123@authtest-yurlh.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "sl_myJwtSecret",
+  "userdb": "nativeuser",
+  "passworddb": "896pass",
+  "databasedb": "ethipulbook",
+  "ok":"ko",
+  "asd": "sd",
+  "sad": "sd"
+  
+}
