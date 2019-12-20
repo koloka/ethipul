@@ -1,12 +1,12 @@
 const mysql = require('mysql');
-
+const config = require('config');
 const dbc = mysql.createConnection({
   host: 'localhost',
-  user: 'nativeuser',
-  password: '896pass',
-  database: 'ethipulbook'
+  user: config.get('userdb'),
+  password: config.get('passworddb'),
+  database: config.get('databasedb')
 });
-///////////
+
 
 dbc.connect((err)=>{
   if(err){
