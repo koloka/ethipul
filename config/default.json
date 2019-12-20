@@ -3,6 +3,7 @@
   "jwtSecret": "sl_myJwtSecret",
   "userdb": "nativeuser",
   "passworddb": "896pass",
-  "databasedb": "ethipulbook"
+  "databasedb": "ethipulbook",
+  "ok":"ko"
   
 }
