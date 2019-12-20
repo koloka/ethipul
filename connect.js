@@ -6,6 +6,7 @@ const dbc = mysql.createConnection({
   password: '896pass',
   database: 'ethipulbook'
 });
+//
 
 dbc.connect((err)=>{
   if(err){
