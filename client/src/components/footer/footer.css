@@ -1,0 +1,34 @@
+.footer-container{
+  background: rgb(32, 35, 47);
+  color: white;
+}
+
+.footer-stripe-top{
+  background: rgb(180, 255, 180);
+  height: 10px;
+}
+.footer-decide-padding{
+  padding: 0 2%;
+}
+.footer-icon-hold{
+  position: absolute; 
+  right: 0;
+}
+.footer-icon-hold i{
+  line-height: 50px;
+  font-size: 35px;
+  width: 50px;
+  background: rgb(136, 136, 136);
+  text-align: center;
+  border-radius: 100px;
+}
+.logo-carrier{
+  display: flex; 
+  height: 50px; 
+  background: rgb(47, 22, 87);
+}
+
+.footer-ethipul{
+  line-height: 50px;
+  padding-left: 10px;
+}

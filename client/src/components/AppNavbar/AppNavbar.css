@@ -1,0 +1,43 @@
+.container{
+  max-width: 1500px;
+}
+.nav-bar{
+  height: 50px;
+  background: rgb(0, 184, 184);
+  overflow: hidden;
+}
+.nav-bar img{
+  /* width: 100%; */
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+.devider{
+  display: flex;
+}
+.logo{
+  width: 100px;
+  float: left;
+}
+
+.menu-container{
+  float: left;
+}
+.menu-container ul, .authentication ul{
+  list-style: none;
+}
+.menu-container ul li, .authentication ul li{
+  float: left;
+}
+.menu-container ul li a, .authentication ul li a{
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+  color: white;
+}
+.menu-container ul li a:hover{
+  background: pink;
+  transition: 0.5s;
+}

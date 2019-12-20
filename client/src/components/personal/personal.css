@@ -1,0 +1,114 @@
+.personal-profile-container{
+  background-image: url("https://scontent.fpnh14-1.fna.fbcdn.net/v/t1.0-9/75250935_1870302636447160_4678757962888511488_o.jpg?_nc_cat=110&_nc_ohc=aHgBvxWm2NgAQmz3bauVbpzAZ9MMiFHjEaj9rnFf99SxZs5uqy6r1xU5g&_nc_ht=scontent.fpnh14-1.fna&oh=73ecc7bd5c1b1ce5c78eeaee0e07d6b1&oe=5E8CD284");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 50px;
+  height: 990px;
+}
+.personal-aboutme-container{
+  background-image: url("https://scontent.fpnh14-1.fna.fbcdn.net/v/t1.0-9/75552922_1870303863113704_238948212000423936_o.jpg?_nc_cat=111&_nc_ohc=St9lLpgJ0E4AQka5_Wjc3uY9GOFw6817YAQAzM9vXakBuMcblv9oOFoRw&_nc_ht=scontent.fpnh14-1.fna&oh=a53a90f91755a41db3d21bfb95722c75&oe=5E886B1C");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.personalc *{
+  color: white;
+}
+.personalc p{
+  font-size: 50px;
+}
+.personalc h1{
+  font-size: 100px;
+  text-align: center;
+}
+
+.personal-navbar{
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  z-index: 1;
+}
+.personal-menu{
+  float: right;
+  display: flex;
+}
+.personal-menu a{
+  line-height: 50px;
+  font-size: 30px;
+  margin-left: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.personal-menu a:hover{
+  text-decoration: none;
+  color: white;
+}
+.personal-menu i{
+  cursor: pointer;
+}
+.personal-sub-menu{
+  position: absolute;
+  display: none;
+}
+
+.pprofile h1{
+  font-size: 200px;
+}
+.pprofile p{
+  font-size: 20px;
+  padding: 0 20%;
+  font-weight: bold;
+  text-align: center;
+}
+.profile-margin{
+  margin: 10%;
+}
+
+.personal-aboutme-container img{
+  width: 100%;
+}
+.personal-container{
+  max-width: 100%;
+}
+.personal-container .col-6{
+  padding: 0;
+}
+.aboutme-right{
+  padding: 0 10% !important;
+  background: rgba(0, 0, 0, 0.7);
+}
+.aboutme-right .aboutme-content-right{
+  margin: 10% 0;
+}
+.aboutme-3col p{
+  text-align: center;
+}
+.p-des{
+  font-size: 25px !important;
+}
+
+.personal-footer-container{
+  background: #000;
+}
+
+.personal-sub-menu{
+  background: rgb(231, 231, 231, 0.6);
+}
+.personal-sub-menu p{
+  font-size: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  cursor: pointer;
+}
+.personal-sub-menu p:hover{
+  background: rgba(0, 238, 255, 0.1);
+}
+.personal-dropdown:hover .personal-sub-menu{
+  display: block;
+}
+.personal-dropdown:hover *{
+  color: red !important;
+}

@@ -1,0 +1,29 @@
+.dash-side{
+  background: rgb(255, 255, 255);
+}
+.dash-side-shadow{
+  box-shadow: 5px 5px 20px rgb(211, 211, 211);
+}
+.dash-board-shadow{
+  box-shadow: 5px 5px 20px rgb(211, 211, 211);padding: 10px;
+}
+
+.dash-list{
+  padding: 10px;
+}
+.dash-list p{
+  border-bottom: 1px solid #dee2e6;
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+  
+}
+
+.dash-active{
+  color: rgb(33, 174, 255);
+}
